@@ -1,0 +1,14 @@
+body{
+    background:gray;
+    border: green;
+    border: 5px;
+}
+
+#imgP{
+    width: 200px;
+    margin: 30px;
+}
+
+#bR{
+    display: inline;
+}
