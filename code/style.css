@@ -1,15 +1,43 @@
-body{
-    background:#c5dafc;
-    border: green;
-    border: 5px;
+body {
+    background:#c9dcfc;
+    margin: 0;
 }
 
-
-#imgP{
-    width: 200px;
-    margin: 30px;
+#topbar {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(59, 125, 201) url(../imgs/topbar.png) repeat-x;
+    float: left;
 }
 
-#bR{
-    display: inline;
+#topbar li {
+    float: left;
+}
+
+#topbar a {
+    display: block;
+    padding: 0 1em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #007ce2;
+}
+
+#primeiro a {
+    border-left: none;
+}
+
+#topimg{
+    padding-left: 3em;
+    padding-right: 1em;
+    padding-top: 5px;
+}
+
+#perfillat {
+    display: inline-block;
+    border: 1px solid red;
+    list-style: none;
+    padding: 50px 70px;
 }
